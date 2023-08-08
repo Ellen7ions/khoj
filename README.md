@@ -44,8 +44,7 @@ This repo branches from the official khoj release, but has some features that ar
 | 🎈 New Features |
 |:---------:|
 |**1. Specify your own offline model, but require gpt4all support.**|
-|**2. Multi-line input mode by (shift&enter)**|
-|**3. Add support for search and chat with web pages**|
+|**2. Add support for search and chat with web pages**|
 
 
 ***
