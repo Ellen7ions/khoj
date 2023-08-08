@@ -141,6 +141,7 @@
             const scrollHeight = textarea.scrollHeight;
             textarea.style.height = Math.min(scrollHeight, 200) + 'px';
             textarea.scrollTop = scrollTop;
+            document.getElementById("chat-body").scrollTop = document.getElementById("chat-body").scrollHeight;
         }
 
         window.onload = function () {
@@ -347,12 +348,14 @@
         #chat-input {
             font-family: roboto, karma, segoe ui, sans-serif;
             font-size: medium;
-            height: 40px;
+            height: 54px;
             resize: none;
             overflow-y: hidden;
             max-height: 200px;
             box-sizing: border-box;
-            padding: 10px;
+            padding: 15px;
+            line-height: 1.5em;
+            margin: 0;
         }
 
         a.inline-chat-link {
